@@ -1,0 +1,40 @@
+.bg-black {
+    color: #fff;
+    background: #000;
+}
+.bg-main {
+    color: #fff;
+    background: #575B59;
+}
+.bg-home {
+    color: #fff;
+    background: #9B8E7A;
+}
+.bg-resume {
+    color: #fff;
+    background: #B6B4AA;
+}
+.bg-work {
+    color: #fff;
+    background: #8E8C86;
+}
+.bg-contact {
+    color: #fff;
+    background: #C5A78D;
+}
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+#main-header .port-item {
+    width: 30%;
+}
+#main-header .port-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+@media(min-width: 1199px) {
+    .port-item {
+        padding: 3em !important;
+    }
+}
