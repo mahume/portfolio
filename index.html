@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
 <div class="container">
+    <!-- Header -->
     <header id="main-header">
         <div class="row no-gutters">
             <div class="col-lg-4 col-md-5">
-                <img src="assets/images/profile.jpeg" alt="Profile picture">
+                <img src="assets/images/profile.jpeg" alt="Mike Hume">
             </div>
             <div class="col-lg-8 col-md-7">
                 <div class="d-flex flex-column">
@@ -23,24 +26,24 @@
                         <div class="d-flex flex-row justify-content-between align-items-center">
                             <h1 class="display-4">Mike Hume</h1>
                             <div class="d-none d-md-block">
-                                <a href="https://instagram.com" class="text-white">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="https://instagram.com/m.a.hume/" class="text-white">
+                                    <i class="fab fa-instagram fa-2x"></i>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://linkedin.com" class="text-white">
-                                    <i class="fab fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/michael-hume-b54b1216a/" class="text-white">
+                                    <i class="fab fa-linkedin fa-2x"></i>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://github.com" class="text-white">
-                                    <i class="fab fa-github"></i>
+                                <a href="https://github.com/mahume" class="text-white">
+                                    <i class="fab fa-github fa-2x"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="p-4 bg-black">
-                        Experienced Full Stack Web Developer
+                    <div class="p-4 bg-dark text-white">
+                        <h5>Full Stack Web Developer</h5>
                     </div>
                     <div>
                         <div class="d-flex flex-row text-white align-items-stretch text-center">
@@ -55,7 +58,7 @@
                                 </i>
                             </div>
                             <div class="port-item p-4 bg-work" data-toggle="collapse" data-target="#work">
-                                <i class="fas fa-folder-open fa-2x d-block">
+                                <i class="fas fa-briefcase fa-2x d-block">
                                     <span class="d-none d-sm-block">Work</span>
                                 </i>
                             </div>
@@ -73,44 +76,92 @@
 
     <!-- Home -->
     <div id="home" class="collapse show">
-        <div class="card card-body bg-home text-white py-5">
+        <div class="card card-body bg-home text-white py-5 border-0 rounded-0">
             <h2>Welcome To My Page</h2>
-            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint esse reiciendis deleniti voluptatum impedit veniam aliquid quam nam nisi rem magnam enim velit consequatur, aspernatur provident dolores tenetur ad.</p>
+            <p class="lead">I’m a Full-Stack Developer instilled with a strong work ethic by an early entrance to the workforce. Having studied finance at a top-flight university and possessing seven years experience in the fast-paced environment of the airline industry’s maintenance sector, I’m always ready for the next challenge. I am an autodidact that believes in lifelong learning and improvement. Whether that be teaching myself Spanish to fluency, traveling to over 70 countries to learn about culture first hand, learning music theory or how to code, once I find a passion I do not quit until I see it through to its fruition. All of these past life experiences have led me to pursue a lifelong career within a sector that truly excites me. Through my ceaseless searching, I have finally found a field that offers a rich abundance of learning with the unlimited possibilities that are inherent to technology. In order to accomplish this goal, I studied at The University of Denver’s Full-Stack Bootcamp and have dedicated myself to a myriad of additional online extracurricular resources in order to position myself advantageously to make this goal a reality.</p>
         </div>
-        <div class="card card-body py-5">
+        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
             <h3>My Skills</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto eos officia, corporis possimus saepe velit, nesciunt assumenda maiores tempora necessitatibus autem odit dolorum ratione quam nemo, laudantium vero dolores?</p>
             <hr>
-            <h4>HTML 5</h4>
+            <h3><i class="fab fa-html5 fa-lg my-2"></i>HTML 5</h>
             <div class="progress mb-3">
-                <div class="progress-bar bg-success" style="width:80%"></div>
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:80%"></div>
             </div>
-            <h4>CSS 3</h4>
+            <h3><i class="fab fa-css3-alt fa-lg my-2"></i>CSS 3</h3>
             <div class="progress mb-3">
-                <div class="progress-bar bg-success" style="width:70%"></div>
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
             </div>
-            <h4>JavaScript</h4>
+            <h3><i class="icon-bootstrap fa-lg my-2"></i>Bootstrap</h3>
             <div class="progress mb-3">
-                <div class="progress-bar bg-success" style="width:50%"></div>
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
             </div>
-            <h4>PHP</h4>
+            <h3><i class="fab fa-sass fa-lg mb-3"></i>Sass</h3>
             <div class="progress mb-3">
-                <div class="progress-bar bg-success" style="width:0%"></div>
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
             </div>
-            <h4>Python</h4>
+            <h3><i class="fab fa-js fa-lg mb-3"></i>JavaScript</h3>
             <div class="progress mb-3">
-                <div class="progress-bar bg-success" style="width:0%"></div>
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
+            </div>
+            <h3><i class="icon-jquery"></i>jQuery</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
+            </div>
+            <h3><i class="fab fa-react fa-lg mb-3"></i>React</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
+            </div>
+            <h3><i class="fab fa-node-js fa-lg mb-3"></i>Node</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
+            </div>
+            <h3><i class="fab fab fa-php fa-lg mb-3"></i>PHP</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="fab fa-python fa-lg mb-3"></i>Python</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-git"></i>Git</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-npm"></i>npm</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-freecodecamp"></i>freeCodeCamp</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-heroku"></i>heroku</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-mongodb"></i>mongodb</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-mysql"></i>mysql</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
+            </div>
+            <h3><i class="icon-d3"></i>d3</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
             </div>
         </div>
     </div>
 
     <!-- Resume -->
     <div id="resume" class="collapse">
-        <div class="card card-body bg-resume text-white py-5">
+        <div class="card card-body bg-resume text-white py-5 border-0 rounded-0">
             <h2>My Resume</h2>
             <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum hic dicta nulla adipisci voluptate? Eum suscipit velit fuga error! Praesentium aliquam quae culpa possimus accusamus velit error voluptas unde nisi.</p>
         </div>
-        <div class="card card-body py-5">
+        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
             <h3>Where I have worked</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quos harum rem eius delectus iste asperiores? Animi eum porro asperiores, error sapiente sint facere tempore tenetur, consectetur vel dolor rerum?</p>
             <div class="card-deck">
@@ -137,11 +188,11 @@
 
     <!-- Work -->
     <div id="work" class="collapse">
-        <div class="card card-body bg-work text-white py-5">
+        <div class="card card-body bg-work text-white py-5 border-0 rounded-0">
             <h2>My Work</h2>
             <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, cupiditate!</p>
         </div>
-        <div class="card card-body py-5">
+        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
             <h3>What I Have Built</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ad.</p>
             <div class="row no-gutters">
@@ -193,55 +244,55 @@
 
     <!-- Contact -->
     <div id="contact" class="collapse">
-        <div class="card card-body bg-contact text-white py-5">
+        <div class="card card-body bg-contact text-white py-5 border-0 rounded-0">
             <h2>Contact</h2>
             <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatem?</p>
         </div>
-        <div class="card card-body py-5">
+        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
             <h3>Get In Touch</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quisquam.</p>
             <form>
                 <div class="form-group">
                     <div class="input-group input-group-lg">
                         <div class="input-group-prepend">
-                            <span class="input-group-text bg-danger text-white">
+                            <span class="input-group-text bg-main text-white">
                                 <i class="fas fa-user"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                        <input type="text" class="form-control text-white" placeholder="Name">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group input-group-lg">
                         <div class="input-group-prepend">
-                            <span class="input-group-text bg-danger text-white">
+                            <span class="input-group-text bg-main text-white">
                                 <i class="fas fa-envelope"></i>
                             </span>
                         </div>
-                        <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                        <input type="email" class="form-control text-white" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group input-group-lg">
                         <div class="input-group-prepend">
-                            <span class="input-group-text bg-danger text-white">
+                            <span class="input-group-text bg-main text-white">
                                 <i class="fas fa-pencil-alt"></i>
                             </span>
                         </div>
-                        <textarea type="text" class="form-control bg-dark text-white" placeholder="Name"></textarea>
+                        <textarea type="text" class="form-control text-white"></textarea>
                     </div>
                 </div>
-                <input type="submit" value="submit" class="btn btn-danger btn-block btn-lg">
+                <input type="submit" value="submit" class="btn btn-primary btn-block btn-lg">
             </form>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer id="main-footer" class="p-5 bg-main text-white">
+    <footer id="main-footer" class="p-5 bg-dark text-white">
         <div class="row">
             <div class="col-md-6">
                 <a href="#" class="btn btn-outline-light">
-                    <i class="fas fa-cloud mr-2"></i>
+                    <i class="fas fa-file-download mr-2"></i>
                     <span>Download Resume</span>
                 </a>
             </div>

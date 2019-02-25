@@ -1,6 +1,5 @@
-.bg-black {
-    color: #fff;
-    background: #000;
+* {
+    font-family: 'Source Code Pro', monospace;
 }
 .bg-main {
     color: #fff;
