@@ -1,309 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-<div class="container">
-    <!-- Header -->
-    <header id="main-header">
-        <div class="row no-gutters">
-            <div class="col-lg-4 col-md-5">
-                <img src="assets/images/profile.jpeg" alt="Mike Hume">
-            </div>
-            <div class="col-lg-8 col-md-7">
-                <div class="d-flex flex-column">
-                    <div class="p-5 bg-main text-white">
-                        <div class="d-flex flex-row justify-content-between align-items-center">
-                            <h1 class="display-4">Mike Hume</h1>
-                            <div class="d-none d-md-block">
-                                <a href="https://instagram.com/m.a.hume/" target="_blank" class="text-white">
-                                    <i class="fab fa-instagram fa-2x"></i>
-                                </a>
+    <div class="container">
+        <!-- Header -->
+        <header id="main-header">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                    <img src="assets/images/profile.jpeg" alt="Mike Hume">
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-main text-white">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h1 class="display-4">Mike Hume</h1>
+                                <div class="d-none d-md-block">
+                                    <a href="https://instagram.com/m.a.hume/" target="_blank" class="text-white">
+                                        <i class="fab fa-instagram fa-2x"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.linkedin.com/in/mahume" target="_blank" class="text-white">
+                                        <i class="fab fa-linkedin fa-2x"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/mahume" target="_blank" class="text-white">
+                                        <i class="fab fa-github fa-2x"></i>
+                                    </a>
+                                </div>
                             </div>
-                            <div>
-                                <a href="https://www.linkedin.com/in/mahume" target="_blank" class="text-white">
-                                    <i class="fab fa-linkedin fa-2x"></i>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://github.com/mahume" target="_blank" class="text-white">
-                                    <i class="fab fa-github fa-2x"></i>
-                                </a>
+                        </div>
+                        <div class="p-4 bg-dark text-white">
+                            <h5>Full Stack Web Developer</h5>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-row text-white align-items-stretch text-center">
+                                <div class="port-item p-4 bg-home" data-toggle="collapse" data-target="#home">
+                                    <i class="fas fa-home fa-2x d-block"></i>
+                                    <h3 class="d-none d-sm-block mt-2">Home</h3>
+                                </div>
+                                <div class="port-item p-4 bg-resume" data-toggle="collapse" data-target="#resume">
+                                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                                    <h3 class="d-none d-sm-block mt-2">Resume</h3>
+                                </div>
+                                <div class="port-item p-4 bg-work" data-toggle="collapse" data-target="#work">
+                                    <i class="fas fa-briefcase fa-2x d-block"></i>
+                                    <h3 class="d-none d-sm-block mt-2">Work</h3>
+                                </div>
+                                <div class="port-item p-4 bg-contact" data-toggle="collapse" data-target="#contact">
+                                    <i class="fas fa-envelope fa-2x d-block"></i>
+                                    <h3 class="d-none d-sm-block mt-2">Contact</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="p-4 bg-dark text-white">
-                        <h5>Full Stack Web Developer</h5>
+                </div>
+            </div>
+        </header>
+
+        <!-- Home -->
+        <div id="home" class="collapse show">
+            <div class="card card-body bg-home text-white py-5 border-0 rounded-0">
+                <h2>Welcome To My Page</h2>
+                <p class="lead">I’m a Full-Stack Developer instilled with a strong work ethic by an early entrance to
+                    the workforce. Having studied finance at a top-flight university and possessing seven years
+                    experience in the fast-paced environment of the airline industry’s maintenance sector, I’m always
+                    ready for the next challenge. I'm a self-learner that believes in lifelong improvement through hard
+                    work. Whether that be teaching myself Spanish to fluency, traveling the world over to learn about
+                    culture first hand, analyzing music theory or how to code, once I find a passion I do not quit until
+                    I see it through to its fruition. All of these past life experiences have led me to pursue a
+                    lifelong career within a sector that truly excites me. Through my ceaseless searching, I have
+                    finally found a field that offers a rich abundance of learning with the unlimited possibilities that
+                    are inherent to technology. In order to accomplish this goal, I studied at The University of
+                    Denver’s Full-Stack Coding Bootcamp and have dedicated myself to a myriad of additional online
+                    extracurricular resources in order to position myself advantageously to make this goal a reality.
+                </p>
+            </div>
+            <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
+                <h3>My Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto eos officia, corporis
+                    possimus saepe velit, nesciunt assumenda maiores tempora necessitatibus autem odit dolorum ratione
+                    quam nemo, laudantium vero dolores?</p>
+                <hr>
+                <h3><i class="fab fa-html5 fa-lg my-2"></i>HTML 5</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:80%">
                     </div>
-                    <div>
-                        <div class="d-flex flex-row text-white align-items-stretch text-center">
-                            <div class="port-item p-4 bg-home" data-toggle="collapse" data-target="#home">
-                                <i class="fas fa-home fa-2x d-block"></i>
-                                <h3 class="d-none d-sm-block mt-2">Home</h3>
-                            </div>
-                            <div class="port-item p-4 bg-resume" data-toggle="collapse" data-target="#resume">
-                                <i class="fas fa-graduation-cap fa-2x d-block"></i>
-                                <h3 class="d-none d-sm-block mt-2">Resume</h3>
-                            </div>
-                            <div class="port-item p-4 bg-work" data-toggle="collapse" data-target="#work">
-                                <i class="fas fa-briefcase fa-2x d-block"></i>
-                                <h3 class="d-none d-sm-block mt-2">Work</h3>
-                            </div>
-                            <div class="port-item p-4 bg-contact" data-toggle="collapse" data-target="#contact">
-                                <i class="fas fa-envelope fa-2x d-block"></i>
-                                <h3 class="d-none d-sm-block mt-2">Contact</h3>
-                            </div>
+                </div>
+                <h3><i class="fab fa-css3-alt fa-lg my-2"></i>CSS 3</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%">
+                    </div>
+                </div>
+                <h3><i class="icon-bootstrap fa-lg my-2"></i>Bootstrap</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%">
+                    </div>
+                </div>
+                <h3><i class="fab fa-sass fa-lg mb-3"></i>Sass</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%">
+                    </div>
+                </div>
+                <h3><i class="fab fa-js fa-lg mb-3"></i>JavaScript</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%">
+                    </div>
+                </div>
+                <h3><i class="icon-jquery"></i>jQuery</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%">
+                    </div>
+                </div>
+                <h3><i class="fab fa-react fa-lg mb-3"></i>React</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%">
+                    </div>
+                </div>
+                <h3><i class="fab fa-node-js fa-lg mb-3"></i>Node</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%">
+                    </div>
+                </div>
+                <h3><i class="fab fab fa-php fa-lg mb-3"></i>PHP</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="fab fa-python fa-lg mb-3"></i>Python</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-git"></i>Git</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-npm"></i>npm</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-freecodecamp"></i>freeCodeCamp</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-heroku"></i>heroku</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-mongodb"></i>mongodb</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-mysql"></i>mysql</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+                <h3><i class="icon-d3"></i>d3</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resume -->
+        <div id="resume" class="collapse">
+            <div class="card card-body bg-resume text-white py-5 border-0 rounded-0">
+                <h2>My Resume</h2>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum hic dicta nulla
+                    adipisci voluptate? Eum suscipit velit fuga error! Praesentium aliquam quae culpa possimus accusamus
+                    velit error voluptas unde nisi.</p>
+            </div>
+            <div class="card card-body pt-5 pb-0 border-top-0 border-right border-bottom-0 border-left rounded-0">
+                <h3>Relevant Work Experience</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quos harum rem eius delectus iste
+                    asperiores? Animi eum porro asperiores, error sapiente sint facere tempore tenetur, consectetur vel
+                    dolor rerum?</p>
+                <div class="card-deck mb-3">
+                    <div class="card">
+                        <div class="card-body pb-1">
+                            <h4 class="card-title">Beacon Language Consultants</h4>
+                            <p>Taught advanced level English classes to business professionals in group and private
+                                settings.</p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Position: Business English Teacher
+                            </p>
+                            <p class="p-2 bg-dark text-white">
+                                Phone: +34 913 91 42 29
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <h6 class="text-muted">
+                                Dates: April 2018 - July 2018
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck mb-3">
+                    <div class="card">
+                        <div class="card-body pb-1">
+                            <h4 class="card-title">Delta Air Lines</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, temporibus!</p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Position: Logistics Attendant
+                            </p>
+                            <p class="p-2 bg-dark text-white">
+                                Phone:
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <h6 class="text-muted">
+                                Dates: September 2010 - August 2017
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body pt-5 pb-0 border-top-0 border-right border-bottom-0 border-left rounded-0">
+                <h3>Education</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quos harum rem eius delectus iste
+                    asperiores? Animi eum porro asperiores, error sapiente sint facere tempore tenetur, consectetur vel
+                    dolor rerum?</p>
+                <div class="card-deck mb-3">
+                    <div class="card">
+                        <div class="card-body pb-1">
+                            <h4 class="card-title">University of Denver</h4>
+                            <p>26 week Full-Stack Web Developer Bootcamp</p>
+                            <p class="p-2 bg-dark text-white">
+                                Certificate: Full-Stack Web Developer
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <h6 class="text-muted">
+                                Dates: November 2018 - June 2019
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck mb-3">
+                    <div class="card">
+                        <div class="card-body pb-1">
+                            <h4 class="card-title">TT Madrid</h4>
+                            <p>120 Hour training course accredited by IATQuO to develop the skills necessary to teach
+                                English as a foreign language.</p>
+                            <p class="p-2 bg-dark text-white">
+                                TEFL Certificate
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <h6 class="text-muted">
+                                Dates: March 2018
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck mb-3">
+                    <div class="card">
+                        <div class="card-body pb-1">
+                            <h4 class="card-title">University of Georgia</h4>
+                            <p>Four-year recipient of Hope Scholarship for outstanding grades</p>
+                            <p class="p-2 bg-dark text-white">
+                                Bachelor of Business Administration
+                            </p>
+                            <p class="p-2 bg-dark text-white">
+                                Banking and Finance
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <h6 class="text-muted">
+                                Dates: August 2006 - July 2010
+                            </h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
 
-    <!-- Home -->
-    <div id="home" class="collapse show">
-        <div class="card card-body bg-home text-white py-5 border-0 rounded-0">
-            <h2>Welcome To My Page</h2>
-            <p class="lead">I’m a Full-Stack Developer instilled with a strong work ethic by an early entrance to the workforce. Having studied finance at a top-flight university and possessing seven years experience in the fast-paced environment of the airline industry’s maintenance sector, I’m always ready for the next challenge. I'm a self-learner that believes in lifelong improvement through hard work. Whether that be teaching myself Spanish to fluency, traveling the world over to learn about culture first hand, analyzing music theory or how to code, once I find a passion I do not quit until I see it through to its fruition. All of these past life experiences have led me to pursue a lifelong career within a sector that truly excites me. Through my ceaseless searching, I have finally found a field that offers a rich abundance of learning with the unlimited possibilities that are inherent to technology. In order to accomplish this goal, I studied at The University of Denver’s Full-Stack Coding Bootcamp and have dedicated myself to a myriad of additional online extracurricular resources in order to position myself advantageously to make this goal a reality.</p>
-        </div>
-        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
-            <h3>My Skills</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto eos officia, corporis possimus saepe velit, nesciunt assumenda maiores tempora necessitatibus autem odit dolorum ratione quam nemo, laudantium vero dolores?</p>
-            <hr>
-            <h3><i class="fab fa-html5 fa-lg my-2"></i>HTML 5</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:80%"></div>
+        <!-- Work -->
+        <div id="work" class="collapse">
+            <div class="card card-body bg-work text-white py-5 border-0 rounded-0">
+                <h2>My Work</h2>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, cupiditate!</p>
             </div>
-            <h3><i class="fab fa-css3-alt fa-lg my-2"></i>CSS 3</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
-            </div>
-            <h3><i class="icon-bootstrap fa-lg my-2"></i>Bootstrap</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
-            </div>
-            <h3><i class="fab fa-sass fa-lg mb-3"></i>Sass</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
-            </div>
-            <h3><i class="fab fa-js fa-lg mb-3"></i>JavaScript</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
-            </div>
-            <h3><i class="icon-jquery"></i>jQuery</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
-            </div>
-            <h3><i class="fab fa-react fa-lg mb-3"></i>React</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
-            </div>
-            <h3><i class="fab fa-node-js fa-lg mb-3"></i>Node</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
-            </div>
-            <h3><i class="fab fab fa-php fa-lg mb-3"></i>PHP</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="fab fa-python fa-lg mb-3"></i>Python</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-git"></i>Git</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-npm"></i>npm</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-freecodecamp"></i>freeCodeCamp</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-heroku"></i>heroku</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-mongodb"></i>mongodb</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-mysql"></i>mysql</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-            <h3><i class="icon-d3"></i>d3</h3>
-            <div class="progress mb-3">
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:0%"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Resume -->
-    <div id="resume" class="collapse">
-        <div class="card card-body bg-resume text-white py-5 border-0 rounded-0">
-            <h2>My Resume</h2>
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum hic dicta nulla adipisci voluptate? Eum suscipit velit fuga error! Praesentium aliquam quae culpa possimus accusamus velit error voluptas unde nisi.</p>
-        </div>
-        <div class="card card-body pt-5 pb-0 border-top-0 border-right border-bottom-0 border-left rounded-0">
-            <h3>Relevant Work Experience</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quos harum rem eius delectus iste asperiores? Animi eum porro asperiores, error sapiente sint facere tempore tenetur, consectetur vel dolor rerum?</p>
-            <div class="card-deck mb-3">
-                <div class="card">
-                    <div class="card-body pb-1">
-                        <h4 class="card-title">Beacon Language Consultants</h4>
-                        <p>Taught advanced level English classes to business professionals in group and private settings.</p>
-                        <p class="p-2 mb-3 bg-dark text-white">
-                            Position: Business English Teacher 
-                        </p>
-                        <p class="p-2 bg-dark text-white">
-                            Phone: +34 913 91 42 29
-                        </p>
+            <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
+                <h3>What I Have Built</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ad.</p>
+                <div class="row no-gutters">
+                    <!-- Liri-bot -->
+                    <div class="card col-md-4" style="width: 18rem;">
+                        <a href="./assets/images/liri-bot.png" data-toggle="lightbox">
+                            <img class="card-img-top img-fluid" src="./assets/images/liri-bot.png" alt="Liri-bot">
+                        </a>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Liri-bot</h5>
+                            <p class="card-text">CLI app that performs API requests based on user inputs.</p>
+                        </div>
+                        <hr class="mb-0">
+                        <div class="card-body">
+                            <span>View code on</span>
+                            <a href="https://github.com/mahume/liri-node-app" class="card-link float-right" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <h6 class="text-muted">
-                            Dates: April 2018 - July 2018 
-                        </h6>
+                    <!-- Bamazon -->
+                    <div class="card col-md-4" style="width: 18rem;">
+                        <a href="" data-toggle="lightbox">
+                            <img class="card-img-top img-fluid" src="" alt="Bamazon">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Bamazon</h5>
+                            <p class="card-text">CLI app that searches MySQL database.</p>
+                        </div>
+                        <hr class="mb-0">
+                        <div class="card-body">
+                            <span>View code on</span>
+                            <a href="https://github.com/mahume/bamazon" class="card-link float-right" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Word Guess -->
+                    <div class="card col-md-4" style="width: 18rem;">
+                        <a href="" data-toggle="lightbox">
+                            <img class="card-img-top img-fluid" src="" alt="Word Guess">
+                        </a>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Word Guess</h5>
+                            <p class="card-text">CLI hangman type app.</p>
+                        </div>
+                        <hr class="mb-0">
+                        <div class="card-body">
+                            <span>View code on</span>
+                            <a href="https://github.com/mahume/constructor-word-guess" class="card-link float-right" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-deck mb-3">
-                <div class="card">
-                    <div class="card-body pb-1">
-                        <h4 class="card-title">Delta Air Lines</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, temporibus!</p>
-                        <p class="p-2 mb-3 bg-dark text-white">
-                            Position: Logistics Attendant
-                        </p>
-                        <p class="p-2 bg-dark text-white">
-                            Phone: 
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h6 class="text-muted">
-                            Dates: September 2010 - August 2017
-                        </h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card card-body pt-5 pb-0 border-top-0 border-right border-bottom-0 border-left rounded-0">
-            <h3>Education</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quos harum rem eius delectus iste asperiores? Animi eum porro asperiores, error sapiente sint facere tempore tenetur, consectetur vel dolor rerum?</p>
-            <div class="card-deck mb-3">
-                <div class="card">
-                    <div class="card-body pb-1">
-                        <h4 class="card-title">University of Denver</h4>
-                        <p>26 week Full-Stack Web Developer Bootcamp</p>
-                        <p class="p-2 bg-dark text-white">
-                            Certificate: Full-Stack Web Developer
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h6 class="text-muted">
-                            Dates: November 2018 - June 2019 
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <div class="card-deck mb-3">
-                <div class="card">
-                    <div class="card-body pb-1">
-                        <h4 class="card-title">TT Madrid</h4>
-                        <p>120 Hour training course accredited by IATQuO to develop the skills necessary to teach English as a foreign language.</p>
-                        <p class="p-2 bg-dark text-white">
-                            TEFL Certificate 
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h6 class="text-muted">
-                            Dates: March 2018
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <div class="card-deck mb-3">
-                <div class="card">
-                    <div class="card-body pb-1">
-                        <h4 class="card-title">University of Georgia</h4>
-                        <p>Four-year recipient of Hope Scholarship for outstanding grades</p>
-                        <p class="p-2 bg-dark text-white">
-                            Bachelor of Business Administration 
-                        </p>
-                        <p class="p-2 bg-dark text-white">
-                            Banking and Finance
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <h6 class="text-muted">
-                            Dates: August 2006 - July 2010
-                        </h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Work -->
-    <div id="work" class="collapse">
-        <div class="card card-body bg-work text-white py-5 border-0 rounded-0">
-            <h2>My Work</h2>
-            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, cupiditate!</p>
-        </div>
-        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
-            <h3>What I Have Built</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ad.</p>
-            <div class="row no-gutters">
-                <div class="card col-md-4" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Liri-bot">
-                    <div class="card-body">
-                      <h5 class="card-title">Liri-bot</h5>
-                      <p class="card-text">CLI app that performs API requests based on user inputs.</p>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-                <div class="card col-md-4" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Bamazon">
-                    <div class="card-body">
-                      <h5 class="card-title">Bamazon</h5>
-                      <p class="card-text">CLI app that performs API requests based on user inputs.</p>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-                <div class="card col-md-4" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Word Guess">
-                    <div class="card-body">
-                      <h5 class="card-title">Word Guess</h5>
-                      <p class="card-text">CLI app that performs API requests based on user inputs.</p>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters">
+                <div class="row no-gutters">
                     <div class="col-md-3">
                         <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
                             <img class="img-fluid" src="https://unsplash.it/600.jpg?image=256" alt="">
@@ -325,72 +383,77 @@
                         </a>
                     </div>
                 </div>
-        </div>
-    </div>
-
-    <!-- Contact -->
-    <div id="contact" class="collapse">
-        <div class="card card-body bg-contact text-white py-3 border-0 rounded-0">
-            <h2>Contact</h2>
-            <div>
-                <span class="contact-items">| michael.a.hume@gmail.com</span><span class="contact-items">| 770-286-2862</span><span class="contact-items">| Denver, CO</span>
             </div>
         </div>
-        <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
-            <h3>Let's Get In Touch</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quas!</p>
-            <form>
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-main text-white">
-                                <i class="fas fa-user"></i>
-                            </span>
-                        </div>
-                        <input type="text" class="form-control text-white" placeholder="Name">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-main text-white">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                        </div>
-                        <input type="email" class="form-control text-white" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-main text-white">
-                                <i class="fas fa-pencil-alt"></i>
-                            </span>
-                        </div>
-                        <textarea type="text" class="form-control text-white"></textarea>
-                    </div>
-                </div>
-                <input type="submit" value="submit" class="btn btn-primary btn-block btn-lg">
-            </form>
-        </div>
-    </div>
 
-    <!-- Footer -->
-    <footer id="main-footer" class="p-5 bg-dark text-white">
-        <div class="row">
-            <div class="col-md-6">
-                <a href="#" class="btn btn-outline-light">
-                    <i class="fas fa-file-download mr-2"></i>
-                    <span>Download Resume</span>
-                </a>
+        <!-- Contact -->
+        <div id="contact" class="collapse">
+            <div class="card card-body bg-contact text-white py-3 border-0 rounded-0">
+                <h2>Contact</h2>
+                <div>
+                    <span class="contact-items">| michael.a.hume@gmail.com</span><span class="contact-items">|
+                        770-286-2862</span><span class="contact-items">| Denver, CO</span>
+                </div>
+            </div>
+            <div class="card card-body py-5 border-top-0 border-right border-bottom-0 border-left rounded-0">
+                <h3>Let's Get In Touch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quas!</p>
+                <form>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-main text-white">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control text-white" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-main text-white">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control text-white" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-main text-white">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </span>
+                            </div>
+                            <textarea type="text" class="form-control text-white"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" class="btn btn-primary btn-block btn-lg">
+                </form>
             </div>
         </div>
-    </footer>
-</div>
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- Footer -->
+        <footer id="main-footer" class="p-5 bg-dark text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-light">
+                        <i class="fas fa-file-download mr-2"></i>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
