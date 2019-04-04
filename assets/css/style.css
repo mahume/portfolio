@@ -29,6 +29,9 @@
 .contact-items {
     display: block;
 }
+.view-code-on {
+    height: 4vh;
+}
 #main-header img {
     width: 100%;
     height: 100%;
