@@ -1,0 +1,22 @@
+{
+  "name": "portfoligrid",
+  "version": "1.0.0",
+  "description": "Work Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahume/portfolio.git"
+  },
+  "author": "Mike Hume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahume/portfolio/issues"
+  },
+  "homepage": "https://github.com/mahume/portfolio#readme",
+  "dependencies": {
+    "nodemailer": "^6.1.0"
+  }
+}
