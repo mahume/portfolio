@@ -32,6 +32,9 @@
 .view-code-on {
     height: 4vh;
 }
+.mfizz-icon {
+    font-size: 1.5rem;
+}
 #headerText {
     height: 100%
 }
