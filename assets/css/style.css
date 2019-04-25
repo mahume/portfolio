@@ -29,6 +29,11 @@
 .contact-items {
     display: block;
 }
+.course-btn {
+    color: #fff;
+    background: #575B59;   
+    outline: none;
+}
 .view-code-on {
     height: 4vh;
 }
