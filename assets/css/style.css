@@ -40,6 +40,13 @@
 .mfizz-icon {
     font-size: 2.3rem;
 }
+#duLogo {
+    height: 33px;
+    width: 108px;
+}
+#freeCodeCampLogo {
+    right: 20px;
+}
 #headerText {
     height: 100%
 }
@@ -53,6 +60,14 @@
 #main-header .port-item:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+#udemyLogo {
+    height: 30px;
+    width: 30px;
+}
+#ugaLogo {
+    height: 33px;
+    width: 103px;
 }
 /* Small - landscape */
 @media(min-width: 576px) {
